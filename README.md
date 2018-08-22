@@ -138,3 +138,12 @@ This repository documents the steps necessary to take a working example of Patte
         }
       },
      ```
+
+1. Update the `gulpfile.js`
+
+   - Gulp development has stagnated. Gulp v3 and v4 are valid deployment targets. Your gulpfile will need to change depending on your target.
+   - Due to breadth of changes, no diff supplied. See the commit.
+   - Most changes (deletions) related to core now managing the watching / copying / and hosting of assets.
+   - Callbacks exist as well as [events](https://github.com/pattern-lab/patternlab-node/blob/dev/packages/core/docs/events.md) to integrate with your workflow.
+
+1. Test. Run `gulp patternlab:serve`
