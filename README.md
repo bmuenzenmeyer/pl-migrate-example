@@ -2,6 +2,8 @@
 
 Pattern Lab 2.X to 3.X
 
+[Watch the screencast](https://www.youtube.com/watch?v=hIH-lI1QTns&t=1s)
+
 This repository documents the steps necessary to take a working example of Pattern Lab Node 2.X (Gulp Edition) and upgrade to the lastest Pattern Lab Node 3.X Alpha.
 
 ### Setup
